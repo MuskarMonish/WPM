@@ -1,0 +1,58 @@
+<style>
+h1 {text-align: center;}
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+
+<script>
+        function myFunction() {
+          alert("Successfully submitted");
+        }
+</script>
+
+<h1>Survey Form:</h1>
+<hr>
+<div style="margin-left:590px" >
+<h3>Customer Name </h3>
+<input type="text" id="first-name" name="first name" required>
+<div>Enter Your First Name</div>
+<input type="text">
+<div>Enter last First Name</div>
+<h3>Address</h3>
+<input type="text">
+<div>Street Address</div>
+<input type="text">
+<div>Street Address Line 2</div>
+<input type="text">
+<div>City</div>
+<input type="text">
+<div>State</div>
+<input type="number">
+<div>Zip</div>
+<br>
+<select name="country" required>
+<option value="Afghanistan">Afghanistan</option>
+<option value="India">India</option>
+</select>
+<br></br>
+<div>Select Country</div>
+<h3>Contact </h3>
+<input type="tel">
+<div>Phone</div>
+<input type="email">
+<div>Email</div>
+<h3>Personal Details </h3>
+<input type="radio" value="male">
+<label>Male</label><br>
+<input type="radio" value="female">
+<label>Female</label><br>
+<input type="radio" value="other">
+<label>Other</label><br>
+<p><input onclick="myFunction()" id="submitbutton" type="submit" value="submit"></p>
+</div>
+
+  
